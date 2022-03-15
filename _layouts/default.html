@@ -1,1 +1,30 @@
-
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>{{ page.title }}</title>
+		<!-- link to main stylesheet -->
+		<link rel="stylesheet" type="text/css" href="/css/main.css">
+	</head>
+	<body>
+		<nav>
+    		<ul>
+        		<li><a href="/">Home</a></li>
+	        	<li><a href="/about">About</a></li>
+        		<li><a href="/cv">CV</a></li>
+    		</ul>
+		</nav>
+		<div class="container">
+			
+			{{ content }}
+			
+		</div><!-- /.container -->
+		<footer>
+    		<ul>
+        		<li><a href="mailto:manuel.schechtl@hu-berlin.de">email</a></li>
+			<li><a href="https://twitter.com/SchechtlM">twitter</a></li>
+			<li><a href="https://scholar.google.de/citations?user=hNr5g7EAAAAJ&hl=de&oi=ao">google scholar</a></li>
+        		<li><a href="https://github.com/schechtm">github</a></li>
+			</ul>
+		</footer>
+	</body>
+</html>
